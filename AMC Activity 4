@@ -1,0 +1,29 @@
+import React from 'react';
+import {Text, StyleSheet} from 'react-native';
+import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
+
+const BoldAndBeautiful = () => (
+  <SafeAreaProvider>
+    <SafeAreaView style={styles.container}>
+      <Text style={styles.baseText}>
+          const bodyText = <Text style={styles.innerText}>'Im Jairus Ilagan Juat.</Text> I expirience in my Sysarch 1 is on how to manage my time and to prepare all the things in my paper works. me as a provider speaker  <Text style={styles.innerText}>i will discuss all the details and provide extra imformation and examples.</Text> It is not easy and i dont know what im going to do in my Sysarch or reaserchh, me and my group im the head of the group,<Text style={styles.innerText}> Im the leader. Me as a leader ill do respect and give some motivational spirit and knowledge to all my members, succeedd is not easy but you can do all the thigs to b come part of your4 group and on how to determained your pressentation.</Text> this project is all about inventory and we do all honnor all my members specially the Pannles, Sir Ariel is the one greate and motivation proffessor, one of a kind and a lot of responsibility and give a lot of chance to finish the projet or sysarcvh reaserch. To be honnor for <Text style={styles.innerText}>My leader sir ariel is one of the strict professor but things a lot of changes and make opportunity to do all part by part, no matter what it is is we need to finish the target tittle in this reasearch.</Text> one upon a day in more a lot o potential activity and make gained lnowledge to do. it is not valid but suddenly make more proud and creative to be come a part anot a leader not a member but be the part of it, Individual.';
+
+        <Text style={styles.innerText}> and red</Text>
+      </Text>
+    </SafeAreaView>
+  </SafeAreaProvider>
+);
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  baseText: {
+    fontWeight: 'bold',
+  },
+  innerText: {
+    color: 'red',
+  },
+});
+
+export default BoldAndBeautiful;
